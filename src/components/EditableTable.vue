@@ -5,6 +5,7 @@
       title="Confirmar"
       v-model="openDialog"
       ok-title="Eliminar"
+      cancel-title="Cancelar"
       @ok="removeRowsHandler"
     >
       <p class="my-4">¿Seguro que deseas eliminar las filas seleccionadas?</p>
